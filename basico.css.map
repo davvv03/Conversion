@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EAEA,gBAAgB,EAAE,gBAAgB;CACrC",
+    "sources": [
+        "basico.scss"
+    ],
+    "names": [],
+    "file": "basico.css"
+}

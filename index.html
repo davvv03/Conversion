@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  
+  <link href="./dist/main.css" rel="stylesheet" />
+  
+
+</head>
+
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+  
+
+  <!--INCIO: Codigo para crear el primer grupo de botones de la parte de arriba de la pagina-->
+
+
+  <div class="container-fluid"  id ="principal">
+
+    <a href="#" ><b>Basico</b></a>
+    <a href="#"><b>Hogar</b></a>
+    <a href="#"><b>Ciencia</b></a>
+    <a href="#"><b>Varios</b></a>
+   
+  </div>
+
+  <!--FINAL: Codigo para crear el primer grupo de botones de la parte de arriba de la pagina-->
+
+  <!--INCIO: Codigo para crear el segundo grupo de botones de la parte de arriba de la pagina-->
+
+  <div class="container-fluid"  id ="icon-bar">
+    <a href="#" ><img src= "./src/iconos/regla.svg"></a>
+    <a href="#"><img src= "./src/iconos/icono2.svg"></a>
+    <a href="#"><img src= "./src/iconos/balance-scale-solid.svg"></a>
+    <a href="#"><img src= "./src/iconos/cube.svg"></a>
+   
+  </div>
+  <!-- FINAL: Codigo para crear el segundo grupo de botones de la parte de arriba de la pagina-->
+
+
+  <!--INCIO: Codigo para crear el input y el select-->
+  <form id="entrada">
+    <input id="input" class="form-control form-control-lg" type="number" min="1" vaalue="1"
+      aria-label=".form-control-lg example" />
+    <select id="medidas" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+      <option>mm</option>
+      <option>cm</option>
+      <option>dm</option>
+      <option>m</option>
+      <option>inch</option>
+      <option>ft</option>
+      <option>yd</option>
+      <option>mile</option>
+      <option>km</option>
+      <option>NM</option>
+    </select>
+  </form>
+  <!--FINAL: Codigo para crear el input y el select-->
+
+
+  <!--INCIO: Codigo para las listas de medidas-->
+
+  <div class="container-fluid">
+
+    <ul id="lista_medidas" class="list-group list-group-flush">
+
+      <div class="container-fluid" id="contmm">
+        <li class="list-group-item-number" id="mm" placeholder = "1"></li>
+        <li class="list-group-item">mm</li>
+      </div>
+
+      <div class="container-fluid" id="contmm">
+        <li class="list-group-item-number" id="cm"></li>
+        <li class="list-group-item">cm</li>
+      </div>
+
+      <div class="container-fluid" id="contmm">
+        <li class="list-group-item-number" id="dm"></li>
+        <li class="list-group-item">dm</li>
+      </div>
+
+      <div class="container-fluid" id="contmm">
+        <li class="list-group-item-number" id="m"></li>
+        <li class="list-group-item">m</li>
+      </div>
+
+      <div class="container-fluid" id="contmm">
+        <li class="list-group-item-number" id="inch" placeholder = "0"></li>
+        <li class="list-group-item">inch</li>
+      </div>
+
+      <div class="container-fluid" id="contmm">
+        <li class="list-group-item-number" id="ft"></li>
+        <li class="list-group-item">ft</li>
+      </div>
+
+      <div class="container-fluid" id="contmm">
+        <li class="list-group-item-number" id="yd"></li>
+        <li class="list-group-item">yd</li>
+      </div>
+
+      <div class="container-fluid" id="contmm">
+        <li class="list-group-item-number" id="mile"></li>
+        <li class="list-group-item">mile</li>
+      </div>
+
+      <div class="container-fluid" id="contmm">
+        <li class="list-group-item-number" id="km"></li>
+        <li class="list-group-item">km</li>
+      </div>
+
+      <div class="container-fluid" id="contmm">
+        <li class="list-group-item-number" id="nm"></li>
+        <li class="list-group-item">NM</li>
+      </div>
+
+
+
+
+    </ul>
+
+
+  </div>
+  <!--FINAL: Codigo para las listas de medidas-->
+
+  
+  <script src="/dist/main.js" type = "module"></script>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+html {
+  font-size: 10px;
+}
+
+#principal {
+  width: 100% !important;
+  background-color: #d9ca84;
+  margin: 0 !important;
+  text-align: center !important;
+  overflow: auto;
+  height: 9rem;
+
+  justify-content: center;
+}
+
+#principal a {
+  float: left;
+  text-align: center;
+  width: 25%;
+  padding: 1.2rem 0;
+  transition: all 0.3s ease;
+
+  font-size: 3.6rem;
+  text-decoration: none;
+  color: black;
+  height: 9rem;
+}
+
+#principal a:hover {
+  background: #c77b29 !important;
+}
+
+#principal a a:active {
+  background: #814800 !important;
+  color: #d9ca84 !important;
+}
+/*FINAL: Seccion de los estilos de los botones  del grupo principal de botones de la pagina*/
+
+/*Color de fondo principal de la pagina*/
+
+:root{
+
+  --fondo:#154d6d;
+
+
+}
+body {
+   
+  background-color: var(--fondo);
+}
+.container-fluid {
+  padding: 0 !important;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-thumb {
+  background: brown !important;
+  border-radius: 6px;
+}
+
+/*Donde se le da el color de fondo al contendor del segundo grupo de botones de la pagina */
+
+/*INICIO: Seccion de los estilos a los botones del segundo grupo de botones de la pagina */
+
+#icon-bar {
+  width: 100%;
+  background-color: #a79c69;
+  overflow: auto;
+}
+
+#icon-bar a {
+  float: left !important;
+  text-align: center !important;
+  width: 25% !important;
+  padding: 1.2rem 0 !important;
+  transition: all 0.3s ease !important;
+  color: white !important;
+  font-size: 3.6rem !important;
+  text-decoration: none !important;
+}
+img {
+  height: 6.5rem;
+}
+
+#icon-bar a:hover {
+  background-color: #948b60;
+}
+
+/*FINAL: Seccion de los estilos a los botones del segundo grupo de botones de la pagina */
+
+/*INICIO: Seccion de los estilos del imput y el select */
+
+#entrada {
+  position: sticky !important;
+  text-align: center;
+  z-index: 10;
+  top: 0;
+}
+form input,
+select {
+  display: inline !important;
+  color: white !important;
+  background-color: #062029 !important;
+  position: relative;
+  margin-top: 0.5%;
+}
+
+form input {
+  width: 30% !important;
+
+  font-size: 2rem !important;
+}
+
+select {
+  background-image: url("../iconos/caret-down-solid.svg") !important;
+  width: 10% !important;
+  font-size: 2rem !important;
+}
+
+/*FINAL: Seccion de los estilos del imput y el select */
+
+/*INICIO: Seccion de los estilos de la lista de medidas */
+#lista_medidas li {
+  background: transparent !important;
+  color: white !important;
+  display: inline-block !important;
+  width: auto !important;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: auto;
+  font-size: 4rem ;
+  border: none;
+}
+
+#lista_medidas {
+  text-align: center !important;
+  background-color: transparent;
+  margin: 1rem;
+}
+
+.list-group-item-number {
+  position: absolute !important;
+
+  display: inline !important;
+  color: white;
+  width: min-content !important;
+
+  
+  background-color: transparent !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#contmm {
+  display: flex !important;
+  align-items: center !important;
+  justify-items: center !important;
+}
+
+/*FINAL: Seccion de los estlos de la lista de medidas */
+
+ul {
+  padding: 0 0 0 0 !important;
+}
+
+@import "responsive";

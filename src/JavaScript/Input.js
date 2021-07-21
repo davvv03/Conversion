@@ -1,0 +1,2 @@
+ var inputValue;
+ export{ inputValue};

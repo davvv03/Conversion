@@ -1,0 +1,81 @@
+:root {
+  --estandar: 40%;
+  --actual:0;
+  --aux: 0;
+}
+
+@media (min-width: 576px) {
+  .list-group-item-number {
+   
+    --estandar:37%;
+
+    left: var(--estandar);
+
+    
+  }
+  html{
+
+    font-size:5px;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .list-group-item-number {
+    --estandar:39%;
+
+    left: var(--estandar);
+  }
+  html{
+
+    font-size:7px;
+  }
+}
+
+@media (min-width: 992px) {
+  .list-group-item-number {
+    --estandar:43%;
+
+    left: var(--estandar);
+  }
+  html{
+
+    font-size:9px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .list-group-item-number {
+    --estandar:44%;
+
+    left: var(--estandar);
+  }
+  html{
+
+    font-size:10px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .list-group-item-number {
+    --estandar:45%;
+
+    left: var(--estandar);
+  }
+  html{
+
+    font-size:10px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    background: red !important;
+  }
+}
+
+@if var(--aux) == "2" {
+  body {
+    background: yellow;
+  }
+}
